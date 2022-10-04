@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap'); */
+
+#introSectionA{
+    padding-bottom: 40px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 65px;
+    align-items: center;
+    height: 425px;
+    width: 100vw;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 19px 221px;
+    height: 345px;
+    font-size: 2rem;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    background: url("/static/img/bg1.jpg")no-repeat center center/cover ;
+    height: 100vh;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    z-index: -1;
+     opacity:0.5;
+    }

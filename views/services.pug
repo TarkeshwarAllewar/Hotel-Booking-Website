@@ -1,0 +1,39 @@
+extends base.pug 
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/services.css 
+block content         
+    section#missionSection
+        h2 Our Services
+        div.card
+            h3 House Keeping
+            div.card-box
+                div.card-img
+                    img(src="/static/img/s.jpg")
+                div.card-content
+                    p We provide the best house keeping service. The staff is too supportive and having good behaviour.
+        div.card
+            h3 Room Cleaning
+            div.card-box
+                div.card-img
+                    img(src="/static/img/s1.jpg")
+                div.card-content
+                    p The best cleaning service provided by our hotel staff.
+        div.card
+            h3 Sea Facing Rooms
+            div.card-box
+                div.card-img
+                    img(src="/static/img/s3.jpg")
+                div.card-content
+                    p The best part of our hotel is that we provide the sea facing rooms.
+
+    section#sponsorsSection
+        h2 More about us 
+        div#sponsors
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ea!
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veniam labore itaque. Ab voluptates debitis nisi architecto unde animi impedit praesentium cum minus! Maiores, voluptatibus repudiandae molestias debitis dolores tenetur?
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore accusantium numquam, quod sunt possimus ipsam laboriosam molestiae odio tempore?

@@ -1,0 +1,43 @@
+extends base.pug 
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+block content         
+    section#introSection
+        div Welcome to HOTEL-T
+        div.small Stay In Peace And Love Your Life
+    div.abc
+        section#missionSection
+            h2 Our Services
+            div.card
+                h3 House Keeping
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/s.jpg")
+                    div.card-content
+                        p We provide the best house keeping service. The staff is too supportive and having good behaviour.
+            div.card
+                h3 Room Cleaning
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/s1.jpg")
+                    div.card-content
+                        p The best cleaning service provided by our hotel staff.
+            div.card
+                h3 Sea Facing Rooms
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/s3.jpg")
+                    div.card-content
+                        p The best part of our hotel is that we provide the sea facing rooms.
+
+        section#sponsorsSection
+            h2 Sponsors 
+            div#sponsors
+                img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage" id="a" )
+                img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/lo1.jpg", alt= "Sponsor Image", class= "spImage")
